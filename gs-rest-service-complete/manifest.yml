@@ -1,0 +1,9 @@
+---
+applications:
+- name: mortgagebrokerapp
+  memory: 256M
+  instances: 1
+  host: mortgagebrokerapp
+  domain: cfapps.io
+  path: target/gs-rest-service-0.1.0.jar
+  buildpack: java_buildpack
